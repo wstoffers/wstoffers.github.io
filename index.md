@@ -6,10 +6,12 @@ title: Will Stoffers
 
 <div class="row">
     <div class="column">
-        <h2>Reducing R.I.S.C.</h2>
+        <h3>Reducing R.I.S.C.</h3>
+        <p>High level about skills used in project</p>
     </div>
     <div class="column">
-        <h2>The Texas Crutch</h2>
+        <h3>The Texas Crutch</h3>
+        <p>High level about skills used in project</p>
     </div>
 </div>
 
