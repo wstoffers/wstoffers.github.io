@@ -25,4 +25,3 @@ title: Will Stoffers
 
 ## About
 
-[Scroll Test](pages/scrollTest.html)
