@@ -10,7 +10,11 @@ title: Will Stoffers
         <p>High level about skills used in project</p>
     </div>
     <div class="column">
-        <h3>The Texas Crutch</h3>
+        <h3>
+            <a href="https://wstoffers.github.io/owlbearBbq/">
+                The Texas Crutch
+            </a>
+        </h3>
         <p>High level about skills used in project</p>
     </div>
 </div>
