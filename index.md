@@ -4,6 +4,7 @@ title: Will Stoffers
 
 ## Public Projects
 
+<!--
 <div class="row">
     <div class="column">
         <h3>
@@ -22,6 +23,7 @@ title: Will Stoffers
         <p>High level about skills used in project</p>
     </div>
 </div>
+-->
 
 ## About
 
