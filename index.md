@@ -10,7 +10,7 @@
 - [ ]   Another Task
 - [ ]    Task not in importance order
 
-![Testing Image](https://github.com/wstoffers/wstoffers.github.io/tree/main/assets/images/white-silhouette.png)
+![Testing Image](https://raw.githubusercontent.com/wstoffers/wstoffers.github.io/main/assets/images/white-silhouette.png)
 
 ##### This is a long ordered list
 
