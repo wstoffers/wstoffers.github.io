@@ -1,8 +1,8 @@
-# This
+# This is a test of the emergency broadcast system
 
-## is a test
+## Links to both project pages will go here
 
-### of the emergency broadcast system
+### Perhaps with transparent background images if they're provided
 
 #### This is a short unordered list
 
