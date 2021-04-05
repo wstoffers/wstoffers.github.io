@@ -6,9 +6,9 @@
 
 #### This is a short unordered list
 
-- [ ] Task
-- [ ] Another Task
-- [ ] Task not in importance order
+- [ ]  Task
+- [ ]   Another Task
+- [ ]    Task not in importance order
 
 ##### This is a long ordered list
 
