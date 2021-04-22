@@ -18,8 +18,9 @@ print(python_version())
 ```
 That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and <c-s>3.7.10</c-s> in Google Colab.
 
-### What is the simplest class I might find useful?
+### What Is The Simplest Class I Might Find Useful?
 
+#### Custom Exceptions
 For now, when you see the word <c-s>class</c-s>, think you're about to read the recipe for an object. It's like that object's DNA (clearly, I know nothing about DNA). Some recipes are really short; the shortest classes I write are custom exceptions:
 
 ```python
@@ -71,5 +72,6 @@ except CurtainError:
 print('Greetings')
 ```
 
-Python stops/<c-s>RuntimeError</c-s> is not caught because <c-s>CurtainError</c-s> is a type of <c-s>RuntimeError</c-s>, but <c-s>RuntimeError</c-s> is not a type of <c-s>CurtainError</c-s>.
+Python stops/<c-s>RuntimeError</c-s> is not caught because <c-s>CurtainError</c-s> is a type of <c-s>RuntimeError</c-s>, but <c-s>RuntimeError</c-s> is not a type of <c-s>CurtainError</c-s>. As simple as that recipe is, a custom exception can be a great way to raise awareness about special conditions and/or make your code easier to understand.
 
+#### Dot Access
