@@ -16,7 +16,8 @@ I'll leave the theory and detail to your instructors. Nothing here is going to b
 from platform import python_version
 print(python_version())
 ```
-That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and `3.7.10` in Google Colab.
+That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and <c-s>3.7.10</c-s> in Google Colab.
 
 ### What is the simplest class I might find useful?
 
+For now, when you see the word <c-s>class</c-s>, think you're about to read the recipe for an object, like that object's DNA (clearly I know nothing about DNA). 
