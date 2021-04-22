@@ -20,4 +20,56 @@ That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and <c-s
 
 ### What is the simplest class I might find useful?
 
-For now, when you see the word <c-s>class</c-s>, think you're about to read the recipe for an object, like that object's DNA (clearly I know nothing about DNA). 
+For now, when you see the word <c-s>class</c-s>, think you're about to read the recipe for an object. It's like that object's DNA (clearly, I know nothing about DNA). Some recipes are really short; the shortest classes I write are custom exceptions:
+
+```python
+class CurtainError(RuntimeError):
+    pass
+    
+raise CurtainError('Pay no attention to the person behind the curtain')
+```
+
+In this case, <c-s>CurtainError</c-s> can do everything <c-s>RuntimeError</c-s> can do, and I haven't added any functionality. When raised, <c-s>CurtainError</c-s> can be caught when it's specified:
+
+```python
+class CurtainError(RuntimeError):
+    pass
+
+try:
+    raise CurtainError('Pay no attention to the person behind the curtain')
+except CurtainError:
+    print('What to do if they look behind the curtain?')
+
+print('Greetings')
+```
+
+Python does not stop; it prints both <c-s>What to do if they look behind the curtain?</c-s> and <c-s>Greetings</c-s>. If <c-s>RuntimeError</c-s> is specified instead,
+
+```python
+class CurtainError(RuntimeError):
+    pass
+
+try:
+    raise CurtainError('Pay no attention to the person behind the curtain')
+except RuntimeError:
+    print('What to do if they look behind the curtain?')
+
+print('Greetings')
+```
+
+the same things are printed. But if the two get flipped,
+
+```python
+class CurtainError(RuntimeError):
+    pass
+
+try:
+    raise RuntimeError('Pay no attention to the person behind the curtain')
+except CurtainError:
+    print('What to do if they look behind the curtain?')
+
+print('Greetings')
+```
+
+Python stops/<c-s>RuntimeError</c-s> is not caught because <c-s>CurtainError</c-s> is a type of <c-s>RuntimeError</c-s>, but <c-s>RuntimeError</c-s> is not a type of <c-s>CurtainError</c-s>.
+
