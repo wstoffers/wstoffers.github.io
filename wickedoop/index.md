@@ -1,6 +1,6 @@
-c-s {
-    font-family: monospace, monospace;
-}
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <h1 align="center">A Wicked Object-Oriented Python Crash Course For Bootcampers</h1>
 
@@ -19,3 +19,4 @@ print(python_version())
 That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and `3.7.10` in Google Colab.
 
 ### What is the simplest class I might find useful?
+
