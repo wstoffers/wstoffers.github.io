@@ -85,4 +85,4 @@ elphie = Witch()
 print(elphie.hair)
 ```
 
-This will print <c-s>black</c-s>, because if you've only ever seen one witch, you might assume all witches have black hair. We created <c-s>elphie</c-s>, a <c-s>Witch</c-s>, by calling <c-s>Witch()</c-s> with no arguments in the parentheses. 
+This will print <c-s>black</c-s>, because if you've only ever seen one witch, you might assume all witches have black hair. We created <c-s>elphie</c-s>, a <c-s>Witch</c-s>, by calling <c-s>Witch()</c-s> with no arguments in the parentheses. Earlier, when we defined <c-s>CurtainError</c-s>, 
