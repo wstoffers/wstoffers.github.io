@@ -26,7 +26,7 @@ title: Will Stoffers
 -->
 
 ### [Reducing R.I.S.C.](https://wstoffers.github.io/codex/)
-This project uses natural language processing to extract features from recipes, classifying the recipes as their root form. The model will first be served in a Flutter app, setting the stage for a recommender, based on user palates.
+This project uses natural language processing to extract features from recipes, classifying the recipes as their root form. The model has been served as a RESTful API with a Flutter frontend. This sets the stage for a recommender, based on user palates.
 
 ### [The Texas Crutch](https://wstoffers.github.io/owlbearBbq/)
 This project combines data from IoT sensors and various APIs in an around-the-clock GCP pipeline to extract capital improvement insights by way of Bayesian inference. Real-world issues encountered along the way required the addition of more complicated pipeline features.
