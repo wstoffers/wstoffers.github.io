@@ -31,6 +31,12 @@ This project uses natural language processing to extract features from recipes, 
 ### [The Texas Crutch](https://wstoffers.github.io/owlbearBbq/)
 This project combines data from IoT sensors and various APIs in an around-the-clock GCP pipeline to extract capital improvement insights by way of Bayesian inference. Real-world issues encountered along the way required the addition of more complicated pipeline features.
 
+## Lecture Material
+
+### [A Wicked Object-Oriented Python Crash Course](wickedoop/)
+A few bootcampers have asked for some gentle clarity, so I took some old lecture material, stripped out all the proprietary subject matter, and added some verdigris. This is mostly intended for data scientists-in-training, and hopes to make the concepts understandable for those with little to no programming experience.
+
+
 ## About
 
-Shortly before DJ Patil (claims to have) coined the term Data Scientist, I had to pick a college major. I just went after the hardest computational problems I could find. And while my computational aerodynamics career has treated me really well, the years have seen me drawn to the agile and cutting edge world of Tech. Luckily, I can apply essentially the same skills, now to problems that affect the people around me more directly. And there still gets to be a little fun learning along the way - isn't learning the best?
+Shortly before DJ Patil (claims to have) coined the term Data Scientist, I had to pick a college major. I just went after the hardest computational problems I could find. And while my computational aerodynamics career has treated me really well, the years have seen me drawn to the agile and cutting edge world of Tech. Luckily, I can apply essentially the same skills - now to problems that affect the people around me more directly. And there still gets to be a little fun learning along the way. Isn't learning the best?
