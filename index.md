@@ -34,7 +34,7 @@ This project combines data from IoT sensors and various APIs in an around-the-cl
 ## Lecture Material
 
 ### [A Wicked Object-Oriented Python Crash Course](wickedoop/)
-A few bootcampers have asked for gentle clarity, so I took some old lecture material, stripped out the proprietary subject matter, and added some verdigris. This is mostly intended for data scientists-in-training, and hopes to make the concepts understandable for those with little to no programming experience.
+A few bootcampers have asked for gentle clarity, so I took some old lecture material, stripped out the proprietary subject matter, and added some verdigris. This is mostly intended for data scientists-in-training, and hopes to make concepts understandable for those with little programming experience.
 
 ## About
 
