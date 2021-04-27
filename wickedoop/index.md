@@ -12,4 +12,5 @@ I'll leave the theory and detail to your instructors. Nothing here is going to b
 from platform import python_version
 print(python_version())
 ```
-That reads `3.7.9` in the environment I currently have loaded, and `3.7.10` in Google Colab.
+That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and `3.7.10` in Google Colab.
+
