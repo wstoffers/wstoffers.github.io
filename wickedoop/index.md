@@ -4,5 +4,5 @@ If you search for object-oriented programming articles, you're likely to see wor
 
 What if, for now, you only want to know enough to be dangerous? What if you're trying to figure something out, and only intend to skim, because all you want to know is
 
-<h4 align="center">How do I understand enough of the Stack Overflow answer I'm reading to implement it in my situation?</h4>
+<h2 align="center">How do I understand enough of the Stack Overflow answer I'm reading to implement it in my situation?</h2>
 
