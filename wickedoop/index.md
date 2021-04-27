@@ -1,3 +1,7 @@
+c-s {
+    font-family: monospace, monospace;
+}
+
 <h1 align="center">A Wicked Object-Oriented Python Crash Course For Bootcampers</h1>
 
 If you search for object-oriented programming articles, you're likely to see words like abstraction, encapsulation, inheritance, and polymorphism. You'll probably see a lot of things framed for software engineers, things written in rigid languages like Java, or old examples written in Python 2.
@@ -14,3 +18,4 @@ print(python_version())
 ```
 That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and `3.7.10` in Google Colab.
 
+### What is the simplest class I might find useful?
