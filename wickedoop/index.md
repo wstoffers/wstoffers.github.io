@@ -75,3 +75,14 @@ print('Greetings')
 Python stops/<c-s>RuntimeError</c-s> is not caught because <c-s>CurtainError</c-s> is a type of <c-s>RuntimeError</c-s>, but <c-s>RuntimeError</c-s> is not a type of <c-s>CurtainError</c-s>. As simple as that recipe is, a custom exception can be a great way to raise awareness about special conditions and/or make your code easier to understand.
 
 #### Dot Access
+It's also possible to write very simple classes just to store things in their namespace. This is where classes are supposed to be aligned with the human view of the real world. If you saw a witch, you might notice one of her attributes, like her hair:
+
+```python
+class Witch(object):
+    hair = 'black'
+
+elphie = Witch()
+print(elphie.hair)
+```
+
+This will print <c-s>black</c-s>, because if you've only ever seen one witch, you might assume all witches have black hair. 
