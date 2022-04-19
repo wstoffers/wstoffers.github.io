@@ -10,6 +10,7 @@
 from platform import python_version
 print(python_version())
 ```
+
 That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and <c-s>3.7.13</c-s> in Google Colab.
 
 - should have tests as requirements
@@ -18,6 +19,7 @@ That reads <c-s>3.7.9</c-s> in the environment I currently have loaded, and <c-s
 - example of first couple english requirements
 - discuss directory structure, naming convention
 - visualize directory structure
+
 ```bash
 myProject/
 |---src/
@@ -34,7 +36,9 @@ myProject/
             |---__init__.py
             |---source_test.py
 ```
+
 - code/link to code that will create directory structure
+
 
 ```python
 #source.py inside myProject/src/code/
@@ -42,7 +46,9 @@ myProject/
 def functionName():
     pass
 ```
+
 - first function, single assert
+
 ```python
 #source_test.py inside myProject/tests/src/code/
 
@@ -53,12 +59,15 @@ from pytest_mock import mocker
 def test_functionName():
     assert code.source.functionName()
 ```
+
 - simple code example of a unit test that represents first english requirement
 - simple code example of empty function
 - how to execute pytest, what failed test looks like
+
 ```bash
 $ cd myProject/src;python -m pytest ../tests/src --cov=.. --cov-report=term:skip-covered -vv --disable-warnings --maxfail=2
 ```
+
 - code example of completed source that passes test
 
 - first method, multiple asserts
